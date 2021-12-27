@@ -1,0 +1,37 @@
+.team {
+  margin-bottom: 100px;
+}
+.team h1 {
+  border-bottom: 5px solid #0d6efd;
+  width: 280px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+/*  */
+
+.team .card {
+  text-align: center;
+  height: 300px;
+}
+
+.swiper-pagination-bullet {
+  padding: 7px;
+}
+
+.team .team-icon{background: #0d6efd;
+color: white;
+padding: 9px;
+border-radius: 50%;
+font-size: 20px;
+display: none;
+margin-left: 10px;
+}
+.team .team-icon:hover{background: #0c4aa8;
+transition:  .8s ease-in-out;}
+.team .card:hover .team-icon{
+display:inline;
+}

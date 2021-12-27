@@ -1,0 +1,56 @@
+.Services {
+  text-align: center;
+  background: rgba(238, 238, 238, 0.685);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.Services h1 {
+  border-bottom: 5px solid #0d6efd;
+  width: 180px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.Services .card {
+  padding: 30px;
+  margin: auto;
+  margin-left: 3px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  height: 460px;
+  width: 380px;
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+.Services .card:hover {
+  box-shadow: 1px 1px 18px rgb(224, 221, 221);
+}
+.Services .card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.Services .card-contain {
+  font-weight: normal;
+}
+.Services .card h3 {
+  margin-top: 30px;
+}
+.Services .card h6 {
+  margin-top: 30px;
+}
+
+.Services .card .btn {
+  background: #0d6efd;
+  border-radius: 30px;
+  color: white;
+  width: 120px;
+  padding: 5px;
+  transition: 0.8s;
+}
+.Services .card .btn:hover {
+  background: #0c59cc;
+}

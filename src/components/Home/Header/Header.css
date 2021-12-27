@@ -1,0 +1,38 @@
+header {
+  box-sizing: border-box;
+  height: 810px;
+  background: rgba(238, 238, 238, 0.685);
+}
+/* image */
+header img {
+  border-top: 19px solid #0d6efd;
+  border-bottom: 19px solid #0d6efd;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  margin-top: 80px;
+}
+/* text */
+header .header-text {
+  text-transform: capitalize;
+  margin-top: 310px;
+  text-align: center;
+}
+header .header-text h1 {
+  color: #0d6efd;
+}
+/* falcon word */
+header .header-text h1 span {
+  color: black;
+}
+header .header-text p {
+  color: black;
+  font-size: 33px;
+}
+
+header .header-text .btn-primary {
+  border: none;
+  border-radius: 40px;
+  width: 140px;
+  font-size: 24px;
+  padding: 10px;
+}

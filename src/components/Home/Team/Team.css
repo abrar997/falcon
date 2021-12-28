@@ -16,22 +16,32 @@
 .team .card {
   text-align: center;
   height: 300px;
+  padding: 30px;
+  width: 340px;
+  margin: auto;
+  border: 1px solid #eee;
 }
-
+.team .card:hover {
+  /* border: 1px solid gray; */
+  box-shadow: 1px 1px 18px rgb(207, 207, 207);
+transition: .8s;}
 .swiper-pagination-bullet {
   padding: 7px;
 }
 
-.team .team-icon{background: #0d6efd;
-color: white;
-padding: 9px;
-border-radius: 50%;
-font-size: 20px;
-display: none;
-margin-left: 10px;
+.team .team-icon {
+  background: #0d6efd;
+  color: white;
+  padding: 9px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: none;
+  margin-left: 10px;
 }
-.team .team-icon:hover{background: #0c4aa8;
-transition:  .8s ease-in-out;}
-.team .card:hover .team-icon{
-display:inline;
+.team .team-icon:hover {
+  background: #0c4aa8;
+  transition: 0.8s ease-in-out;
+}
+.team .card:hover .team-icon {
+  display: inline;
 }

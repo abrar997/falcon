@@ -10,6 +10,7 @@ import SwiperCore, {
 } from 'swiper';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 // install Swiper modules
 SwiperCore.use([FreeMode,Pagination]);
@@ -27,31 +28,34 @@ const Team = ({ team }) => {
             slidesPerView={3}
             spaceBetween={30}
             freeMode={true}
-            // pagination={{
-            //   clickable: true,
-            // }}
+            pagination={{
+              clickable: true,
+            }}
             className="mySwiper"
             autoplay={{
               delay: 1500,
               disableOnInteraction: true,
             }}
           >
-            {team.map((item) => {
+            {team.map((item,inde) => {
               return (
                 <SwiperSlide
                   className="col-lg-4 col-xl-4 col-md-3 col-sm-12 col-xs-12"
-                  key={item.id}
+                  key={inde}
                 >
                   <div className="card ">
-                    <img src="" alt="" />
+                    <img src={item.img} alt="" />
                     <h3> {item.name}</h3>
                     <h5>{item.job} </h5>
-                    <div>
+                    <div className="icon-team">
                       <a href="." className="team-icon">
                         <FontAwesomeIcon icon={faFacebook} />
                       </a>
-                      <a href="." className="team-icon">
+                      <a href="." className=" team-icon ">
                         <FontAwesomeIcon icon={faInstagram} />
+                      </a>
+                      <a href="." className=" team-icon ">
+                        <FontAwesomeIcon icon={faEnvelope} />
                       </a>
                     </div>
                   </div>

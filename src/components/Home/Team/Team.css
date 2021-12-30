@@ -1,8 +1,8 @@
 .team {
   margin-bottom: 100px;
+  direction: ltr;
 }
 .team h1 {
-  border-bottom: 5px solid #0d6efd;
   width: 280px;
   text-align: center;
   margin: auto;
@@ -11,37 +11,53 @@
   padding-bottom: 10px;
 }
 
-/*  */
-
 .team .card {
-  text-align: center;
-  height: 300px;
-  padding: 30px;
+  height: 460px;
+  padding: 10px;
   width: 340px;
   margin: auto;
-  border: 1px solid #eee;
+  border: 1px solid rgb(179, 177, 177);
+  text-align: center;
+  box-shadow: inset 1px 1px 17px rgb(226, 226, 226);
 }
+.team .card img {
+  object-fit: contain;
+}
+
 .team .card:hover {
-  /* border: 1px solid gray; */
   box-shadow: 1px 1px 18px rgb(207, 207, 207);
-transition: .8s;}
+  transition: 0.6s;
+}
+
 .swiper-pagination-bullet {
   padding: 7px;
 }
+.team .icon-team {
+  background: #eee;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
 
-.team .team-icon {
+.team-icon {
   background: #0d6efd;
   color: white;
   padding: 9px;
   border-radius: 50%;
-  font-size: 20px;
-  display: none;
-  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 5px;
 }
-.team .team-icon:hover {
-  background: #0c4aa8;
-  transition: 0.8s ease-in-out;
+
+.team-icon:hover {
+  background: #0f489c;
+  color: white;
 }
-.team .card:hover .team-icon {
-  display: inline;
+
+.team .card:hover .icon-team {
+  display: flex;
+  flex-flow: column;
+  /* transform: scale(1.1);  transition: all 0.7s ease-in-out; */
+
 }

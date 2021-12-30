@@ -26,7 +26,7 @@ const NAv = () => {
                   <Link to="/Home" className="nav-link active">
                     الرئيسية
                   </Link>
-              
+
                   <Link to="/" className="nav-link">
                     <div className="dropdown">
                       <button
@@ -43,24 +43,24 @@ const NAv = () => {
                         aria-labelledby="dropdownMenuButton1"
                       >
                         <li>
-                          <Link to="/Services" className="dropdown-item">
-                             تطوير مواقع
+                          <Link to="/WebDevelopment" className="dropdown-item">
+                            تطوير مواقع
                           </Link>
                         </li>
                         <li>
-                          <Link to="/" className="dropdown-item">
-                            تصميم 
+                          <Link to="/design" className="dropdown-item">
+                            تصميم
                           </Link>
                         </li>
                         <li>
-                          <Link to="/" className="dropdown-item">
+                          <Link to="/CyperSecurity" className="dropdown-item">
                             الأمن السيبراني
                           </Link>
                         </li>
                       </ul>
                     </div>
-                  </Link> 
-                     <Link to="/" className="nav-link">
+                  </Link>
+                  <Link to="/" className="nav-link">
                     أعمالنا
                   </Link>
                   <Link to="/" className="nav-link ">

@@ -11,7 +11,7 @@ const Header = () => {
          <button className="btn-primary">ابدأ معنا  </button>
           </div>
           <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 header-image " >
-           <img src={require ('./Images/3.png')} width={'90%'}/>
+           <img src={require ('./Images/3.png')} width={'80%'}/>
           </div>
         </div>
       </div>

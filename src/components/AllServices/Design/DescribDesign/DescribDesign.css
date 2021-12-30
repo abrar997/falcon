@@ -1,0 +1,36 @@
+.DescribDesign {
+  padding-top: 70px;
+  margin-bottom: 100px;
+}
+.DescribDesign img {
+  width: 90%;
+  box-shadow: 1px 1px 18px rgb(214, 212, 212);
+  margin-top: 100px;
+}
+
+.DescribDesign .web-text {
+  box-shadow: 1px 1px 18px rgb(224, 224, 224);
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 100px;
+}
+.DescribDesign .web-text p {
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.DescribDesign .web-text h6 {
+  line-height: 30px;
+}
+.DescribDesign .web-text button {
+  margin-top: 20px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.DescribDesign .web-text button:hover {
+  background: #0e489e;
+}

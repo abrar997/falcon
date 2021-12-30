@@ -14,7 +14,7 @@ const CustomerSay = ({ customer }) => {
     <div className="CustomerSay">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-xl-6 col-xs-12 col-sm-12 col-md-6 text">
+          <div className="col-lg-6 col-xl-6 col-xs-12 col-sm-12 col-md-6 text-CustomerSay">
             <h1>يقول الزبون </h1>
 
             <Swiper
@@ -28,10 +28,10 @@ const CustomerSay = ({ customer }) => {
                 disableOnInteraction: true,
               }}
             >
-              {customer.map((item,index) => {
+              {customer.map((item, index) => {
                 return (
                   <SwiperSlide
-                    className="col-lg-8 col-xl-8 col-md-3 col-sm-12 col-xs-12"
+                    className="col-lg-8 col-xl-8 col-md-3 col-sm-12 col-xs-7"
                     key={index}
                   >
                     <img src={item.image} alt="/" />
@@ -46,8 +46,8 @@ const CustomerSay = ({ customer }) => {
             </Swiper>
           </div>
 
-          <div className="col-lg-4 col-xl-4 col-xs-12 col-sm-12 col-md-12 image">
-            <img src={require("./image/111.png")} alt="/"/>
+          <div className="col-lg-4 col-xl-4 col-xs-7 col-sm-12 col-md-12 image">
+            <img src={require("./image/111.png")} alt="/" />
           </div>
         </div>
       </div>

@@ -1,18 +1,9 @@
 import React from 'react'
-
+import CyperSecurityDescribe from './CyperSecurityDescribe/CyperSecurityDescribe';
 const CyperSecurity = () => {
-    return <div className='container' style={{paddingTop:"300px"}}><h1>CyperSecurity
-        dddddddddddddddddsjhcj
-        cjchaaaaaaaaaaaaaax
-        hqkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-        
-        
-        
-        
-        
-        
-        </h1></div>;
+    return (
+     <div><CyperSecurityDescribe /> </div>
+    );
 }
 
 export default CyperSecurity

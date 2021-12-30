@@ -4,18 +4,19 @@
     #0d6efd,
     rgba(238, 238, 238, 0.685),
     rgba(238, 238, 238, 0.685)
-    
   );
   height: 500px;
 }
 
-.CustomerSay .text {
+.CustomerSay .text-CustomerSay {
   text-align: center;
   margin-top: 80px;
-margin-right: 100px;}
-.CustomerSay .text h1 {
+  margin-right: 100px;
+}
+.CustomerSay .text-CustomerSay h1 {
   margin-bottom: 30px;
 }
+
 .CustomerSay .image img {
   margin-right: 80px;
   /* background: #0d6efd; */
@@ -34,7 +35,6 @@ margin-right: 100px;}
   border-bottom-right-radius: 30px;
   box-shadow: inset 1px 1px 16px rgb(194, 194, 194);
   padding: 30px;
-
 }
 
 .CustomerSay .mySwiper img {
@@ -51,4 +51,15 @@ margin-right: 100px;}
   padding: 10px;
   border-radius: 50%;
   font-size: 20px !important;
+}
+
+@media all and (max-width: 557px) {
+  .CustomerSay .image img {
+    margin: auto;
+    width: 60%;
+    display: none;
+  }
+  .CustomerSay .text-CustomerSay {
+    margin-right: 00px;
+  }
 }

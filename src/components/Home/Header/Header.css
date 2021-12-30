@@ -36,3 +36,18 @@ header .header-text .btn-primary {
   font-size: 24px;
   padding: 10px;
 }
+@media all and (max-width: 557px) {header{height: 580px;}
+
+ header .header-text {margin-top: 120px;}
+header img{width: 30%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60px;
+}
+header .header-text .btn-primary {padding: 5px;
+font-size: 10px;
+width: 80px;outline: none;}
+
+}

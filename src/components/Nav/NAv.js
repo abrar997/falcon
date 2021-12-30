@@ -60,7 +60,7 @@ const NAv = () => {
                       </ul>
                     </div>
                   </Link>
-                  <Link to="/" className="nav-link">
+                  <Link to="/OurWorks" className="nav-link">
                     أعمالنا
                   </Link>
                   <Link to="/" className="nav-link ">

@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import WebDevelopment from "./components/AllServices/WebDevelopment/WebDevelopment";
 import Design from "./components/AllServices/Design/Design";
 import CyperSecurity from "./components/AllServices/CyperSecurity/CyperSecurity";
+import OurWorks from "./components/OurWorks/OurWorks";
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/WebDevelopment" element={<WebDevelopment />} />
         <Route path="/design" element={<Design />} />
         <Route path="/CyperSecurity" element={<CyperSecurity />} />
+        <Route path="/OurWorks" element={<OurWorks />} />
       </Routes>
       <Footer />
     </Router>

@@ -31,3 +31,8 @@
   font-size: 17px !important;
   margin-left: 10px;
 }
+
+@media all and (max-width: 557px) {
+.Categeory{margin: auto;}
+
+}

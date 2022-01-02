@@ -1,4 +1,6 @@
-.products{margin-top: -10px;}
+.products {
+  margin-top: -10px;
+}
 .products .card {
   text-align: center;
   height: 340px;
@@ -88,4 +90,13 @@
   font-size: 24px;
   text-align: center;
   color: #414141;
+}
+
+@media all and (max-width: 557px) {
+  .products {
+    margin: auto;
+  }
+  .products .card {
+    margin: auto;
+  }
 }

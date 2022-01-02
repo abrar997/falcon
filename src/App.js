@@ -1,5 +1,4 @@
 import React from "react";
-import { HashRouter as Router } from "react-router-dom";
 import Nav from "./components/Nav/NAv";
 import { Route, Routes } from "react-router";
 import Home from "./components/Home/Home";
@@ -8,6 +7,9 @@ import WebDevelopment from "./components/AllServices/WebDevelopment/WebDevelopme
 import Design from "./components/AllServices/Design/Design";
 import CyperSecurity from "./components/AllServices/CyperSecurity/CyperSecurity";
 import OurWorks from "./components/OurWorks/OurWorks";
+
+import { HashRouter as Router } from "react-router-dom";
+
 const App = () => {
   return (
     <Router>
@@ -26,3 +28,21 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

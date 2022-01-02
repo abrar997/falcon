@@ -1,0 +1,33 @@
+.Categeory {
+  box-shadow: 1px 1px 18px rgb(212, 209, 209);
+  margin-top: 120px;
+  padding: 20px;
+  text-align: start;
+}
+.Categeory h4 {
+  /* border-bottom: 2px solid #eee; */
+  padding-bottom: 10px;
+  width: 180px;
+}
+.categeory-btns {
+  margin-top: 10px;
+}
+.Categeory .categeory-btns button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+}
+
+.Categeory .categeory-btns button:hover {
+  color: #0d6efd;
+}
+.Categeory .categeory-btns button:focus {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.Categeory .svg-inline--fa {
+  color: #0d6efd !important;
+  font-size: 17px !important;
+  margin-left: 10px;
+}

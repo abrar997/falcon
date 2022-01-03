@@ -8,7 +8,7 @@ const Products = ({ productst, videos }) => {
           {productst.map((item) => {
             return (
               <>
-                <div className="card col-lg-4" key={item._id}>
+                <div className="card col-lg-4 col-xl-4 col-sm-12 col-xs-12 col-md-6" key={item._id}>
                   <div className="slide slide1">
                     <div className="content">
                       <div className="icon">
@@ -30,7 +30,10 @@ const Products = ({ productst, videos }) => {
           {videos.map((video,indexss) => {
             return (
               <>
-                <div className="card col-lg-4" key={indexss}>
+                <div
+                  className="card col-lg-4 col-xl-4 col-sm-12 col-xs-12 col-md-6"
+                  key={indexss}
+                >
                   <div className="slide slide1">
                     <div className="content">
                       <div className="icon">

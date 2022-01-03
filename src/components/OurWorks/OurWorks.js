@@ -17,11 +17,11 @@ const OurWorks = () => {
     <div className="OurWorks">
       <div className="container">
         <div className="row">
-          <div className=" col-lg-4 col-xl-3">
+          <div className=" col-lg-4 col-xl-3 col-sm-12 col-xs-12 col-md-12 ">
             <h2>التصنيف</h2>
             <Categeory />
           </div>
-          <div className=" col-lg-8 col-xl-9">
+          <div className=" col-lg-8 col-xl-9 col-sm-12 col-xs-12 col-md-12">
             <h1>أعمالنا</h1>
             <Products productst={productst} videos={videos} />
           </div>

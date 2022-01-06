@@ -49,10 +49,7 @@
 
 @media all and (max-width: 557px) {
   .login img {
-    width: 80%;
-    margin: auto;
+    display: none;
   }
-  .login form {
-    font-size: smaller;
-  }
+
 }

@@ -18,7 +18,7 @@ const Signup = () => {
                   <img src={require("./sign.jpg")} alt="login" />
                 </div>
                 <form className="col-lg-6 col-xl-6 col-md-4 col-sm-12 col-xs-12">
-                  <h1>   انشئ حسابك </h1>
+                  <h1> انشئ حسابك </h1>
                   <div>
                     <h3>الايميل </h3>
                     <input
@@ -38,9 +38,13 @@ const Signup = () => {
                       placeholder="الباسورد"
                     />
                   </div>
-
-                  <button className="btn btn-primary">التسجيل </button>
-                </form>
+<div className='buttons'>
+                  <button className="btn btn-primary btn-signup ">التسجيل </button>
+                  <button className="btn btn-primary mt-4 btn-google" >
+                    {" "}
+                    تسجيل الدخول من google account{" "}
+                  </button>
+        </div>        </form>
               </div>
             </div>
           </div>{" "}

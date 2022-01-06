@@ -54,4 +54,10 @@
     display: none;
     margin: auto;
   }
+  .signup {
+    padding-top: 30px;
+  }
+  .signup .container .row {
+    box-shadow: none;
+  }
 }

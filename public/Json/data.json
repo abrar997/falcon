@@ -1,19 +1,40 @@
 {
   "products": [
-    { "img": "../imageJSon/lo1.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/lo2.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/lo3.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/lo4.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/moc1.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/moc2.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/moc3.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/cyb2.jpg", "name":"تصميم شعار "},
-    { "img": "../imageJSon/cyp3.jpg", "name":"تصميم شعار "}
+    { "img": "../imageJSon/lo1.jpg", "name": "تصميم شعار ", "type": "design" },
+    { "img": "../imageJSon/lo2.jpg", "name": "تصميم شعار ", "type": "design" },
+    { "img": "../imageJSon/lo3.jpg", "name": "تصميم شعار ", "type": "design" },
+    { "img": "../imageJSon/lo4.jpg", "name": "تصميم شعار ", "type": "design" },
+    
+    {
+      "img": "../imageJSon/moc1.jpg",
+      "name": "تصميم موكاب ",
+      "type": "design"
+    },
+    {
+      "img": "../imageJSon/moc2.jpg",
+      "name": "تصميم موكاب ",
+      "type": "design"
+    },
+    { "img": "../imageJSon/moc3.jpg", "name": "تصميم موكاب ", "type": "cyper" },
+    {
+      "img": "../imageJSon/cyb2.jpg",
+      "name": " الأمن السيبراني ",
+      "type": "cyper"
+    },
+    {
+      "img": "../imageJSon/cyp3.jpg",
+      "name": "الأمن السيراني  ",
+      "type": "cyper"
+    }
   ],
 
-
- "videos": [
-{"video":"../imageJSon/appaplication.mp4","name":"الامن السيبراني"},{"video":"../imageJSon/design.mp4","name":"التصميم"},{"video":"../imageJSon/design22.mp4","name":"التصميم "}
-    
+  "videos": [
+    {
+      "video": "../imageJSon/appaplication.mp4",
+      "name": "الامن السيبراني",
+      "type": "cyper"
+    },
+    { "video": "../imageJSon/design.mp4", "name": "التصميم", "type": "design" },
+    { "video": "../imageJSon/design22.mp4", "name": "التصميم ", "type": "web" }
   ]
 }

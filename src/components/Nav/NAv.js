@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './NAv.css';
+import Modal from "react-modal/lib/components/Modal";
+
 const NAv = () => {
-    return (
+  Modal.setAppElement("#root");
+  return (
       <div className="navbar-light ">
         <div className="container ">
           <nav className="navbar navbar-expand-lg ">
@@ -70,13 +73,13 @@ const NAv = () => {
                     المقالات
                   </Link>
                   <div className="icons ">
-                    <Link to="/" className="btn btn-primary icon-btn">
+                    <Link to="/Login" className="btn btn-primary icon-btn">
                       {/* <FontAwesomeIcon icon={faPhone} />{" "} */}
                       تسجيل دخول
                     </Link>
-                    <Link to="/" className="btn  btn-primary icon-btn">
+                    <Link to="/Signup" className="btn  btn-primary icon-btn">
                       {/* <FontAwesomeIcon icon={faUser} /> */}
-                      حساب جديد
+                                      حساب جديد
                     </Link>
                   </div>
                 </div>

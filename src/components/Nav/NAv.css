@@ -6,7 +6,9 @@
   max-height: 30px;
   border-radius: 30px;
 }
-::-webkit-scrollbar-thumb:hover{background-color: gray;}
+::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
 /* navbar */
 .navbar-light {
   background-color: #0d6efd !important;
@@ -18,7 +20,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  z-index: 10
+  z-index: 10;
 }
 /* icons of phone and sign up  */
 .navbar-light .icons {
@@ -59,4 +61,40 @@
 }
 .navbar-light .dropdown-toggle:hover {
   color: #eee !important;
+}
+
+/* ~````````````````````````modal log in ------------------- */
+
+.ReactModal__Overlay {
+  width: 600px;
+  height: 400px;
+  background-color: #eee;
+  position: absolute;
+  top: -400px !important;
+  right: 30% !important;
+  transition: all 0.8s ease !important;
+  text-align: center;
+  animation: drop 0.8s ease-in-out forwards, swing 2s 2s ease forwards;
+  transform-origin: 10px 10px;
+  z-index: 1000;
+}
+@keyframes drop {
+  0% {
+  }
+  75% {
+    transform: translateY(650px);
+  }
+  100% {
+    transform: translateY(590px);
+  }
+}
+/* s */
+.delete-btn{position: absolute;
+top: 0;
+right: 0;
+background: transparent;
+border: none;
+font-size: 20px;
+color: #0d6efd;
+font-weight: 600;
 }

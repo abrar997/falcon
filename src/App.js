@@ -9,8 +9,11 @@ import CyperSecurity from "./components/AllServices/CyperSecurity/CyperSecurity"
 import OurWorks from "./components/OurWorks/OurWorks";
 
 import { HashRouter as Router } from "react-router-dom";
+import Signup from "./components/LogSign/Signup/Signup";
+import Login from "./components/LogSign/Login/Login";
 
 const App = () => {
+  
   return (
     <Router>
       <Nav />
@@ -21,6 +24,8 @@ const App = () => {
         <Route path="/design" element={<Design />} />
         <Route path="/CyperSecurity" element={<CyperSecurity />} />
         <Route path="/OurWorks" element={<OurWorks />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
       </Routes>
       <Footer />
     </Router>

@@ -1,7 +1,6 @@
 import {
   faFacebook,
   faInstagram,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -69,9 +68,7 @@ const Footer = () => {
                   <a href="/">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
-                  <a href="/">
-                    <FontAwesomeIcon icon={faTwitter} />{" "}
-                  </a>
+              
                   <a href="/">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>

@@ -44,8 +44,8 @@ const Products = ({ productst, videos }) => {
                     </div>
                   </div>
                   <div className="slide slide2">
-                    <div className="content">
-                      <p>تصميم شعار لشركة مبيعات</p>
+                    <div className="content mt-3">
+                      <p>  {video.name}</p>
                     </div>
                   </div>
                 </div>

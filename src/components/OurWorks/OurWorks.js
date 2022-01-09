@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Categeory from "./Categeory/Categeory";
 import "./OurWorks.css";
 import Products from "./Products/Products";
 const OurWorks = () => {

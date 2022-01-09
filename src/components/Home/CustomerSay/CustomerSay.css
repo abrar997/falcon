@@ -54,6 +54,10 @@
 }
 
 @media all and (max-width: 557px) {
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
   .CustomerSay .image img {
     margin: auto;
     width: 60%;
@@ -62,6 +66,7 @@
   .CustomerSay .text-CustomerSay {
     margin-right: 00px;
   }
-.CustomerSay h5{font-size: 15px;}
-
+  .CustomerSay h5 {
+    font-size: 15px;
+  }
 }

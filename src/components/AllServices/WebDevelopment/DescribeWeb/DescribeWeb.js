@@ -6,7 +6,7 @@ const DescribeWeb = () => {
     <div className="DescribeWeb">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 web-text">
+          <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 web-text">
             <h1> تطوير مواقع </h1>
             <p>
               تتضمن عدة مجالات منها تصميم ونشر وبرمجة الويب وإدارة قاعدة
@@ -17,14 +17,14 @@ const DescribeWeb = () => {
             <h6>
               {" "}
               يتم تصميم الموقع حسب طلب الزبون من خلال اعطاء تفاصيل كاملة عن
-              الموقع يكون جاهزا باسرع وقت ممكن يمكنك رؤية اهم اعمالنا من{" "}
-              <Link to="/">هنا</Link>
+              الموقع يكون جاهزا باسرع وقت ممكن و يمكنك رؤية  اعمالنا من{" "}
+              <Link to="/OurWorks">هنا</Link>
             </h6>
 
             <button>تواصل مع الفريق الان </button>
           </div>
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 web-image">
-            <img src={require("../../images/web.png")} />
+          <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 web-image">
+            <img src={require("../../images/web.png")} alt="webimage" />
           </div>
         </div>{" "}
       </div>

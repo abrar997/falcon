@@ -12,7 +12,7 @@ const Services = ({ servicesCard }) => {
           <>
             {servicesCard.map((item, ind) => {
               return (
-                <div className="card col-lg-4 col-xl-4 col-md-3 col-sm-12 col-xs-12" key={ind}>
+                <div className="card col-lg-4 col-xl-4 col-md-12 col-sm-12 col-xs-12" key={ind}>
                   <img src={item.img} alt="img_card" />
                   <div className="card-contain">
                     <h3 className="card-title">{item.h} </h3>

@@ -31,7 +31,7 @@ const CustomerSay = ({ customer }) => {
               {customer.map((item, index) => {
                 return (
                   <SwiperSlide
-                    className="col-lg-8 col-xl-8 col-md-3 col-sm-12 col-xs-7"
+                    className="col-lg-8 col-xl-8 col-md-12 col-sm-12 col-xs-7"
                     key={index}
                   >
                     <img src={item.image} alt="/" />
@@ -46,7 +46,7 @@ const CustomerSay = ({ customer }) => {
             </Swiper>
           </div>
 
-          <div className="col-lg-4 col-xl-4 col-xs-7 col-sm-12 col-md-12 image">
+          <div className="col-lg-4 col-xl-4 col-xs-7 col-sm-12 col-md-4  image">
             <img src={require("./image/111.png")} alt="/" />
           </div>
         </div>

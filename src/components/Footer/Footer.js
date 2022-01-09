@@ -1,13 +1,36 @@
-import {
-  faFacebook,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import React, { useState } from "react";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import emailjs from "emailjs-com";
+
 const Footer = () => {
+  const [ask, setAsk] = useState({
+    name: "",
+  });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_b3gqo19",
+        "template_zunsjdw",
+        e.target,
+        "user_SNPTszdvRiyww8wHwfkEQ"
+      )
+      .then((res) => {
+        console.log(res);
+      });
+  };
+  const handleName = (e) => {
+    setAsk({ name: e.target.value });
+  };
+
+  const { name } = ask;
+
   return (
     <>
       <footer className="footer-dark">
@@ -23,19 +46,7 @@ const Footer = () => {
                   <Link to="/Design">تصميم</Link>
                 </li>
                 <li>
-                  <Link to="/">الامن السيبراني </Link>
-                </li>
-              </ul>{" "}
-              <h3>عن</h3>
-              <ul>
-                <li>
-                  <Link to="/">الفريق</Link>
-                </li>
-                <li>
-                  <Link to="/">اهداف الفريق </Link>
-                </li>
-                <li>
-                  <Link to="/">.....</Link>
+                  <Link to="/CyperSecurity">خدمات اخرى </Link>
                 </li>
               </ul>
             </div>
@@ -43,16 +54,25 @@ const Footer = () => {
             <div className="col-md-6 col-lg-4 col-xl-4 item text footer-contact">
               تواصل معنا
               <div className="form form-primary">
-                <textarea
-                  row={12}
-                  className="textarea-footer"
-                  placeholder="يمكنك كتابة رسالتك هنا"
-                ></textarea>
-                <br />
-                <div>
-                  {" "}
-                  <button className="btn-primary">ارسل </button>
-                </div>
+                <form onSubmit={handleSubmit}>
+                  <textarea
+                    type="text"
+                    className="textarea-footer"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="your name"
+                    name="name"
+                    onChange={handleName} //for get name from inpt and print in heaer pargraph
+                    value={name}
+                  />
+                  <br />
+                  <div>
+                    {" "}
+                    <button type="submit" className="btn-primary">
+                      ارسل{" "}
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
 
@@ -68,7 +88,7 @@ const Footer = () => {
                   <a href="/">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
-              
+
                   <a href="/">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>

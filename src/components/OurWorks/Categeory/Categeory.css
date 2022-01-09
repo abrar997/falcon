@@ -33,6 +33,17 @@
 }
 
 @media all and (max-width: 557px) {
-.Categeory{margin: auto;}
+  .categeoryAll h2 {
+    margin-top: 20px;
+  }
+  .Categeory {
+    margin-top: 20px;
+  }
+}
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Categeory {
+    margin-top: 20px;
+  }
 }

@@ -8,21 +8,21 @@
   margin-top: 100px;
 }
 
-.CyperSecurity .web-text {
+.CyperSecurity .other-text {
   box-shadow: 1px 1px 18px rgb(224, 224, 224);
   margin-top: 100px;
   text-align: center;
   padding-top: 70px;
 }
-.CyperSecurity .web-text p {
+.CyperSecurity .other-text p {
   margin-top: 30px;
   line-height: 30px;
 }
 
-.CyperSecurity .web-text h6 {
+.CyperSecurity .other-text h6 {
   line-height: 30px;
 }
-.CyperSecurity .web-text button {
+.CyperSecurity .other-text button {
   margin-top: 20px;
   border: none;
   background: #0d6efd;
@@ -31,6 +31,39 @@
   border-radius: 30px;
 }
 
-.CyperSecurity .web-text button:hover {
+.CyperSecurity .other-text button:hover {
   background: #0e489e;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (max-width: 576px) {
+ .CyperSecurity {
+    padding-top: 20px;
+  }
+  .CyperSecurity .other-text {
+    padding-top: 30px;
+  }
+  .CyperSecurity .other-text {
+    padding: 20px;
+  }
+  .CyperSecurity img {
+    width: 100%;
+  }
+}
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  @media all and (min-width: 576px) and (max-width: 768px) {
+  .CyperSecurity {
+     padding-top: 20px;
+   }
+   .CyperSecurity .other-text {
+     padding-top: 30px;
+   }
+   .CyperSecurity .other-text {
+     padding: 20px;
+   }
+   .CyperSecurity img {
+     width: 100%;
+   }
+ 
+ }

@@ -7,20 +7,18 @@ const CyperSecurityDescribe = () => {
     <div className="CyperSecurity">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 web-text">
-            <h1> الأمن السيبراني </h1>
+          <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 other-text">
+            <h1> خدمات اخرى </h1>
             <p>
-              أيًّا كان احتياجاتك في الامن السيبراني وحل الثغرات سيساعدك فريقنا
-              المحترفين في فالكون على حلها
+              ايا كان احتياك من خدمات تخص امن المواقع ومايحدث فيه من مشاكل
+              فريقنا سيتكفل فريقنا بكل ما يضمن موقعك
             </p>
             <h6>
-              يتم تصميم الموقع حسب طلب الزبون من خلال اعطاء تفاصيل كاملة عن
-              الموقع يكون جاهزا باسرع وقت ممكن يمكنك رؤية اعمالنا من
-              <Link to="/">هنا</Link>
+              <Link to="/OurWorks">يمكنك رؤية اعمالنا من هنا </Link>
             </h6>
             <button>تواصل مع الفريق الان </button>
           </div>
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 web-image">
+          <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 other-image">
             <img src={require("../cyperimage/cyper.png")} alt="/" />
           </div>
         </div>

@@ -48,7 +48,8 @@
 .signup button:focus {
   outline: none;
 }
-
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (max-width: 557px) {
   .signup img {
     display: none;
@@ -59,5 +60,17 @@
   }
   .signup .container .row {
     box-shadow: none;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .signup img {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+    .signup {
+    padding-top: 90px;
   }
 }

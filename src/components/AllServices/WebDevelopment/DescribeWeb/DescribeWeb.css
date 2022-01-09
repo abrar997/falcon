@@ -34,3 +34,34 @@
 .DescribeWeb .web-text button:hover {
   background: #0e489e;
 }
+/* medua query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (max-width: 576px) {
+  .DescribeWeb {
+    padding-top: 20px;
+  }
+  .DescribeWeb .web-text {
+    padding-top: 30px;
+  }
+  .DescribeWeb .web-text {
+    padding: 20px;
+  }
+  .DescribeWeb img {
+    width: 100%;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .DescribeWeb {
+    padding-top: 20px;
+  }
+  .DescribeWeb .web-text {
+    padding-top: 30px;
+  }
+  .DescribeWeb .web-text {
+    padding: 25px;
+  }
+  .DescribeWeb img {
+    width: 100%;
+  }
+}

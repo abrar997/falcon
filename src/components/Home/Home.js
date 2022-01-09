@@ -27,8 +27,8 @@ const Home = () => {
       img: img2,
     },
     {
-      h: "الامن السيبراني",
-      p: "ايجاد ثغرات في المواقع او البرامج واصلاحها ............",
+      h: "خدمات اخرى",
+      p: "اغلاق الثغرات والفايروسات التي تحدث في المواقع والتطبيقات ",
       img: img3,
     },
   ]);
@@ -38,14 +38,9 @@ const Home = () => {
     { name: "أبرار مثنى ", job: "React frontend ", img: imgt1 },
     { name: "فاطمة مثنى ", job: "graphic designer", img: imgt1 },
     { name: "سهى جعفر", job: "frontend web development", img: imgt1 },
-
     { name: "محمد", job: " cyper security", img: imgt2 },
     { name: "فارس", job: "cyper security", img: imgt2 },
-    { name: "فاطمة ", job: "backend web development", img: imgt1 },
-    { name: "فاطمة ", job: "backend web development", img: imgt1 },
-    { name: "فاطمة ", job: "backend web development", img: imgt1 },
-    { name: "فاطمة ", job: "backend web development", img: imgt1 },
-    { name: "فاطمة ", job: "backend web development", img: imgt1 },
+
   ]);
 
   const [customer] = useState([

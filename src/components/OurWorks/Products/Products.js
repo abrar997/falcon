@@ -6,7 +6,7 @@ const Products = ({ productst, videos }) => {
     <div className="products">
       <h1>
         {" "}
-        <NavLink to="Home" className="activeLink">
+        <NavLink to="/Home" className="activeLink">
           الرئيسية
         </NavLink>
         / أعمالنا{" "}
@@ -59,7 +59,7 @@ const Products = ({ productst, videos }) => {
                       </div>
                       <div className="slide slide2">
                         <div className="content mt-3">
-                          <p> {video.name}</p>
+                          <h3> {video.name}</h3>
                           <p>من عمل فريق فالكون </p>
                         </div>
                       </div>

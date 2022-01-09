@@ -4,12 +4,16 @@
     { "img": "../imageJSon/lo2.jpg", "name": "تصميم شعار ", "type": "design" },
     { "img": "../imageJSon/lo3.jpg", "name": "تصميم شعار ", "type": "design" },
     { "img": "../imageJSon/lo4.jpg", "name": "تصميم شعار ", "type": "design" },
+    { "img": "../imageJSon/44.jpg", "name": "تطوير مواقع  ", "type": "design" },
+    { "img": "../imageJSon/66.jpg", "name": "تطوير مواقع  ", "type": "design" },
+    { "img": "../imageJSon/Untitled-2.jpg", "name": "تطوير مواقع  ", "type": "design" },
     
     {
       "img": "../imageJSon/moc1.jpg",
       "name": "تصميم موكاب ",
       "type": "design"
     },
+    
     {
       "img": "../imageJSon/moc2.jpg",
       "name": "تصميم موكاب ",
@@ -18,23 +22,23 @@
     { "img": "../imageJSon/moc3.jpg", "name": "تصميم موكاب ", "type": "cyper" },
     {
       "img": "../imageJSon/cyb2.jpg",
-      "name": " الأمن السيبراني ",
+      "name": "خدمات اخرى",
       "type": "cyper"
     },
     {
       "img": "../imageJSon/cyp3.jpg",
-      "name": "الأمن السيراني  ",
+      "name": "خدمات اخرى",
       "type": "cyper"
     }
   ],
 
   "videos": [
+    { "video": "../imageJSon/design.mp4", "name": "التصميم", "type": "design" },
+    { "video": "../imageJSon/design22.mp4", "name": "التصميم ", "type": "web" },
     {
       "video": "../imageJSon/appaplication.mp4",
-      "name": "الامن السيبراني",
+      "name": "خدمات اخرى",
       "type": "cyper"
-    },
-    { "video": "../imageJSon/design.mp4", "name": "التصميم", "type": "design" },
-    { "video": "../imageJSon/design22.mp4", "name": "التصميم ", "type": "web" }
+    }
   ]
 }

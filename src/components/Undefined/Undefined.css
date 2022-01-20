@@ -1,0 +1,17 @@
+.Undefined .container .row {
+  text-align: center;
+  box-shadow: 1px 1px 14px gray;
+  padding: 30px;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+.Undefined img {
+  width: 30%;
+  margin: auto;
+}
+
+.Undefined h4 {
+  text-transform: capitalize;
+  margin-top: 20px;
+}

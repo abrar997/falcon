@@ -10,14 +10,14 @@ import CyperSecurity from "./components/AllServices/CyperSecurity/CyperSecurity"
 import OurWorks from "./components/OurWorks/OurWorks";
 import Signup from "./components/LogSign/Signup/Signup";
 import Login from "./components/LogSign/Login/Login";
-
+import Undefined from "./components/Undefined/Undefined";
 const App = () => {
   
   return (
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/WebDevelopment" element={<WebDevelopment />} />
         <Route path="/design" element={<Design />} />
@@ -25,6 +25,7 @@ const App = () => {
         <Route path="/OurWorks" element={<OurWorks />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
+        <Route path="*" element={<Undefined />} />
       </Routes>
       <Footer />
     </Router>
